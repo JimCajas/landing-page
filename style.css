@@ -10,7 +10,7 @@ body {
 }
 
 .container-large {
-    max-width: 48rem;
+    max-width: 64rem;
     margin: auto;
     padding: 0 1rem;
 }
@@ -92,4 +92,55 @@ button {
     max-width: 100%;
     min-height: 18rem;
     object-fit: cover;
+}
+
+section.information {
+    padding: 4rem 0 8rem 0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.container-medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 56rem;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.cards-list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap; 
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    text-align: center;
+}
+
+.info-img {
+    min-height: 10rem;
+    max-width: 10rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+    object-fit: cover;
+}
+
+p {
+    color: #1f2937;
+    font-weight: 300;
 }
