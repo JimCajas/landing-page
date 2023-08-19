@@ -5,11 +5,14 @@
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-large {
     max-width: 48rem;
     margin: auto;
+    padding: 0 1rem;
 }
 
 nav {
@@ -20,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    
 }
 
 .logo-text {
@@ -35,9 +38,58 @@ ul {
     gap: 1.5rem;
 }
 
+.header-subtext,
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 1.125rem;
     font-weight: 300;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 4rem 0 8rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #f9f8f8;
+    font-weight: 800;
+    margin: 0 0 -0.5rem 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0;
+
+}
+
+.header-flex {
+    display: flex;
+    gap: 4rem;
+    align-items: start;
+}
+
+.header-start {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.header-end {
+    max-width: 50%;
+}
+
+.header-img {
+    max-width: 100%;
+    min-height: 18rem;
+    object-fit: cover;
 }
