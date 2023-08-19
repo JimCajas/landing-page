@@ -169,3 +169,49 @@ blockquote {
     margin-right: 4rem;
     font-weight: 700;
 }
+
+.cta-block-padding {
+    padding: 4rem;
+}
+
+.cta-block-blue {
+    background-color: #3882f6;
+    padding: 2rem 5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cta-text {
+    color:#e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+
+}
+
+h3 {
+    margin: 0;
+}
+
+button.cta-outline {
+    border-width: 2px;
+    border-color: #e5e7eb;
+    min-width:8rem;
+}
+
+.cta-subtext {
+    font-weight: 300;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 300;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
